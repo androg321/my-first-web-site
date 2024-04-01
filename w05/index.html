@@ -11,6 +11,10 @@
             align-items: center;
             font-size: 30px;
         }
+        #apple {
+            color: black;
+
+        }
         .content {
             display: block;
             justify-content: center;
@@ -31,12 +35,17 @@
             border-radius: 10px;
             border: none;
         }
+        button:hover {
+            background-color: white;
+            color: gray;
+            border: 1px solid gray;
+        }
     </style>
 </head>
 <body style="margin: 0;">
     <div id="title">
         <img src="apple.svg" alt="" style="width: 50px; margin: 40px;">
-        <h5 style="color: black;">Apple</h5>
+        <h5 id="apple"">Apple</h5>
     </div>
     <div class="content">
         <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-13-mac-nav-202310?wid=400&hei=260&fmt=png-alpha&.v=1696964122666" alt="" style="width: 200px; margin: 40px;">
@@ -65,7 +74,7 @@
         </p>
         <button onclick="location.href='https://www.apple.com/kr/ipad/'">iPad 바로가기</button>
     </div>
-    <h2 style="text-decoration: underline;">애플 홈페이지 바로가기</h2>
-    <a href="https://www.apple.com/kr/">Apple.com</a>
+    <h2 style="text-decoration: underline; text-align: center;">애플 홈페이지 바로가기</h2>
+    <a href="https://www.apple.com/kr/" style="text-align: center;">Apple.com</a>
 </body>
 </html>
