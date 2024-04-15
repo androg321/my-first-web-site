@@ -43,7 +43,7 @@ h2 {
     background-color: gray;
 }
 
-@media(max-width: 768px) {
+@media(max-width: 1800px) {
     #title {
         background-color: gray;
     }
@@ -71,7 +71,7 @@ h2 {
     }
 }
 
-@media(max-width: 320px) {
+@media(max-width: 767px) {
     #title {
         display: block;
         background-color: white;
@@ -79,7 +79,9 @@ h2 {
 
     #title > h5 {
         font-weight: 100;
-        margin: 0 25%;
+        width: 100vw;
+        margin: 0;
+        text-align: center;
         color: black;
     }
 
