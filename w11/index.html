@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>멜론 인기차트</h1>
+    <script>
+        songs = ['SPOT!', 'Magnetic', '해야', '나는 아픈 건 딱 질색이니까', '고민중독', '미안해 미워해 사랑해', '첫 만남은 계획대로 되지 않아', '천상연', 'SHEESH', '사랑은 늘 도망가'];
+        songImg = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg', '10.jpg']
+        document.write("<li>" + songs[0] + "</li>"); 
+        document.write("<li>" + songs[1] + "</li>");
+        document.write("<li>" + songs[2] + "</li>");
+        document.write("<li>" + songs[3] + "</li>");
+        document.write("<li>" + songs[4] + "</li>");
+        document.write("<li>" + songs[5] + "</li>");
+        document.write("<li>" + songs[6] + "</li>");
+        document.write("<li>" + songs[7] + "</li>");
+        document.write("<li>" + songs[8] + "</li>");
+        document.write("<li>" + songs[9] + "</li>");
+        document.write("<br>");
+
+        var i = 0;
+        while(i < songs.length) {
+            document.write("<li><a href='https://namu.wiki/w/" + songs[i] + "'>" + songs[i] + "</li>");
+            document.write("<img src='" + songImg[i] + "'>");
+            i = i + 1;
+        }
+    </script>
+</body>
+</html>
