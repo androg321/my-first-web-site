@@ -1,74 +1,87 @@
 <!DOCTYPE html>
 <html lang="kr">
-    <head>
-        <title></title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="/css/style.css" rel="stylesheet">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        <script src="./js/script.js"></script>  
-    </head>
-    <body>
-        <h1>대한민국의 국제공항</h1>
-        <div id="grid">
-            <ul>
-              <li><a href="icn.html">인천국제공항</a></li>
-              <li><a href="gmp.html">김포국제공항</a></li>
-              <li><a href="pus.html">김해국제공항</a></li>
-              <li><a href="cju.html">제주국제공항</a></li>
-              <li><a href="tae.html">대구국제공항</a></li>
-              <li><a href="cjj.html">청주국제공항</a></li>
-              <li><a href="mwx.html">무안국제공항</a></li>
-              <li><a href="yny.html">양양국제공항</a></li>
-            </ul>
-            <div class="contents">
-              <input id="night_day_1" type="button" value="day" onclick="nightDayHandler(this)"/>
-        
-              <img src="./img/apt_maps.webp" width="20%">
-              <p>대한민국은 8개의 국제공항과 7개의 국내공항으로 이루어져있다.</p>
-              <p>인천국제공항, 김포국제공항, 김해국제공항, 제주국제공항, 대구국제공항, 청주국제공항, 무안국제공항, 양양국제공항</p>
-              <h2>국제공항별 이용객 수</h2>
-              <table>
-                <tr>
-                    <th>공항명</th>
-                    <th>이용객 수</th>
-                </tr>
-                <tr>
-                    <td>인천국제공항</td>
-                    <td>7,116만명</td>
-                </tr>
-                <tr>
-                    <td>김포국제공항</td>
-                    <td>2,544만명</td>
-                </tr>
-                <tr>
-                    <td>김해국제공항</td>
-                    <td>1,693만명</td>
-                </tr>
-                <tr>
-                    <td>제주국제공항</td>
-                    <td>3,131만명</td>
-                </tr>
-                <tr>
-                    <td>대구국제공항</td>
-                    <td>466만명</td>
-                </tr>
-                <tr>
-                    <td>청주국제공항</td>
-                    <td>300만명</td>
-                </tr>
-                <tr>
-                    <td>무안국제공항</td>
-                    <td>89만 5천명</td>
-                </tr>
-                <tr>
-                    <td>양양국제공항</td>
-                    <td>5만 4천명</td>
-                </tr>
-              </table>
-              
-              <input id="night_day_2" type="button" value="day" onclick="nightDayHandler(this)"/>
-            </div>
-          </div>
-    </body>
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="./css/style.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
+  </head>
+  <body>
+    <h1>대한민국의 국제공항</h1>
+    <div id="grid">
+      <ul>
+        <li><a href="icn.html">인천국제공항</a></li>
+        <li><a href="gmp.html">김포국제공항</a></li>
+        <li><a href="pus.html">김해국제공항</a></li>
+        <li><a href="cju.html">제주국제공항</a></li>
+        <li><a href="tae.html">대구국제공항</a></li>
+        <li><a href="cjj.html">청주국제공항</a></li>
+        <li><a href="mwx.html">무안국제공항</a></li>
+        <li><a href="yny.html">양양국제공항</a></li>
+      </ul>
+      <div class="contents">
+        <input
+          id="night_day_1"
+          type="button"
+          value="day"
+          onclick="nightDayHandler(this)"
+        />
+
+        <img src="./img/apt_maps.webp" width="20%" />
+        <p>대한민국은 8개의 국제공항과 7개의 국내공항으로 이루어져있다.</p>
+        <p>
+          인천국제공항, 김포국제공항, 김해국제공항, 제주국제공항, 대구국제공항,
+          청주국제공항, 무안국제공항, 양양국제공항
+        </p>
+        <h2>국제공항별 이용객 수</h2>
+        <table>
+          <tr>
+            <th>공항명</th>
+            <th>이용객 수</th>
+          </tr>
+          <tr>
+            <td>인천국제공항</td>
+            <td>7,116만명</td>
+          </tr>
+          <tr>
+            <td>김포국제공항</td>
+            <td>2,544만명</td>
+          </tr>
+          <tr>
+            <td>김해국제공항</td>
+            <td>1,693만명</td>
+          </tr>
+          <tr>
+            <td>제주국제공항</td>
+            <td>3,131만명</td>
+          </tr>
+          <tr>
+            <td>대구국제공항</td>
+            <td>466만명</td>
+          </tr>
+          <tr>
+            <td>청주국제공항</td>
+            <td>300만명</td>
+          </tr>
+          <tr>
+            <td>무안국제공항</td>
+            <td>89만 5천명</td>
+          </tr>
+          <tr>
+            <td>양양국제공항</td>
+            <td>5만 4천명</td>
+          </tr>
+        </table>
+
+        <input
+          id="night_day_2"
+          type="button"
+          value="day"
+          onclick="nightDayHandler(this)"
+        />
+      </div>
+    </div>
+  </body>
 </html>
